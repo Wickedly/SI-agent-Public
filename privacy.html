@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SI-Agent privacy policy for Gmail, Google Calendar, local storage, and optional messaging notifications."><title>Privacy Policy | SI-Agent</title><link rel="stylesheet" href="styles.css"></head>
+<body><header><div class="wrap nav"><a class="brand" href="index.html">SI-Agent</a><nav aria-label="Primary"><a href="index.html">Overview</a><a href="privacy.html" aria-current="page">Privacy Policy</a><a href="terms.html">Terms</a></nav></div></header>
+<main class="wrap"><p class="eyebrow">Privacy</p><h1>SI-Agent Privacy Policy</h1><p class="meta">Effective October 13, 2026</p>
+<p class="lead">This policy describes how the self-hosted SI-Agent application handles information when its authorized owner connects Gmail, Google Calendar, and an optional messaging channel. This public website is separate from the running assistant.</p>
+<h2>1. Who operates SI-Agent</h2><p>SI-Agent is an independent personal-use project maintained by <a href="https://github.com/Wickedly">Wickedly</a>. It is intended for its authorized owner rather than open public registration.</p>
+<h2>2. Information accessed with permission</h2><p>With the account owner's authorization and the appropriate Google API permissions, SI-Agent may read data necessary for enabled features:</p>
+<ul><li><strong>Gmail:</strong> message and thread identifiers, sender information, subject lines, timestamps, labels, snippets or previews, and selected message details needed to answer questions or monitor mail.</li>
+<li><strong>Google Calendar:</strong> calendar and event identifiers, summaries, start and end times, status, and relevant event changes.</li>
+<li><strong>Account connection:</strong> OAuth credentials and technical binding data needed to validate and maintain the owner's approved connection.</li></ul>
+<p>Read access does not itself grant SI-Agent authority to send email, modify calendars, approve requests, or take other consequential actions.</p>
+<h2>3. Purposes for using information</h2>
+<ul><li>Responding to explicit owner requests about connected Gmail and Calendar information.</li>
+<li>Monitoring selected authorized sources for information, deadlines, scheduling changes, or account-security claims when enabled.</li>
+<li>Preparing notifications or review items under owner configuration and safety rules.</li>
+<li>Maintaining authorization, event history, deduplication, diagnostics, reliability, and audit trails.</li></ul>
+<p>Google user data is not used for advertising, sold, or used to train a general-purpose AI model. Email content is treated as untrusted source information, not as instructions granting permissions.</p>
+<h2>4. Processing and storage</h2>
+<p>SI-Agent runs on a computer managed by its owner. The application may keep observed metadata, bounded excerpts of message content, calendar details, classifications, authorized connection state, local logs, and notification history in a locally managed data store. OAuth credentials are retained securely on the application host for approved Google API access. This information is not necessarily temporary and may be kept until the owner deletes it under applicable application procedures.</p>
+<p>Some classification may be performed by a locally hosted language model. This is distinct from sending Gmail content to an external AI model. The public GitHub Pages site does not contain the private database, OAuth credentials, or message history.</p>
+<h2>5. Information sent to service providers</h2>
+<p>SI-Agent communicates with Google APIs to retrieve information under granted permissions. If the owner enables Telegram notifications, selected alerts, summaries, or excerpts may be transmitted to Telegram for delivery and are then subject to Telegram's own privacy practices. SI-Agent does not publish the owner's Gmail or Calendar content to this public site.</p>
+<p>Google user data is not sold or shared for targeted advertising. Any future third-party integration that changes Google data usage or disclosure should be assessed and disclosed before it is enabled.</p>
+<h2>6. Security</h2><p>SI-Agent uses host access controls, restricted storage for credentials, authorization checks, and operational audit records. SI-Agent remains under active development; no technical system can guarantee absolute security.</p>
+<h2>7. Retention, deletion, and revocation</h2>
+<p>Operational history—including past observations, failures, audit events, and delivery records—may remain stored to support troubleshooting and integrity. No blanket automatic deletion schedule is promised. The owner may disable monitoring, revoke the app's Google access in <a href="https://myaccount.google.com/permissions">Google Account permissions</a>, and arrange deletion of locally stored records using the application's administrative procedures. Revoking Google access does not itself remove prior locally stored records, backups, or messages already delivered through Telegram.</p>
+<h2>8. Google API Services User Data Policy</h2>
+<p>SI-Agent's use and transfer of information received from Google APIs are intended to comply with the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements. Access is limited to the owner-authorized functionality described here.</p>
+<h2>9. This public website</h2><p>This static information site does not request Google authorization, load site analytics, or collect Gmail or Calendar content. GitHub Pages hosts these files and may process ordinary connection data under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
+<h2>10. Updates and contact</h2>
+<p>This policy may change when the application's capabilities or handling of information changes; its effective date will be updated. For support, privacy inquiries, or requests relating to the app, contact the maintainer through the <a href="https://github.com/Wickedly">Wickedly GitHub profile</a>. Never include passwords, tokens, private email contents, or similar confidential information in a public issue.</p>
+<div class="note"><strong>Verification before OAuth submission:</strong> The owner should verify that this policy accurately describes the app's deployed Google OAuth scopes, enabled integrations, retention, and notification practices. A public policy page alone does not grant Google OAuth verification.</div>
+</main><footer><div class="wrap"><span>© 2026 SI-Agent.</span><span><a href="index.html">Overview</a><a href="terms.html">Terms</a></span></div></footer></body></html>
